@@ -33,7 +33,7 @@ def StringSum(val1, val2):
             
         lenx-=1 # sondan diğer basamağa geçiyor
         #print("::::::::::::",sumx[::-1],more,"   :", ) her döngünün sonunda hata ayıklama için verilerin çıktısını yazdırıyorum
-    if(str(more) == "1"):#döngü bittikten sonra veri kalmışsa örn:(8+7=17 de ki 1) bunu veri dizinimizin sonuna ekleyelim
+    if(str(more) == "1"):#döngü bittikten sonra veri kalmışsa örn:(8+7=15 de ki 1) bunu veri dizinimizin sonuna ekleyelim
         sumx.append(more)
         
     sumx=sumx[::-1] # şu ana kadar veriyi tersten yazdık, (son basamak toplamı dizinin ilk karakterine yazıldı) bu yüzden ters çeviriyoruz
